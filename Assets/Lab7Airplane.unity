@@ -419,11 +419,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57ba4ccf84d39b409118cde4ee506da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 1345193303}
   enginePower: 20
   liftBooster: 0.5
   drag: 0.001
   angularDrag: 0.001
+  yawPower: 50
+  pitchPower: 50
+  rollPower: 30
 --- !u!1001 &1461192544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -442,7 +445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 367224579765957705, guid: 838136d4c1884f44da26115a0278f40c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.2
+      value: -460
       objectReference: {fileID: 0}
     - target: {fileID: 367224579765957705, guid: 838136d4c1884f44da26115a0278f40c, type: 3}
       propertyPath: m_LocalRotation.w
