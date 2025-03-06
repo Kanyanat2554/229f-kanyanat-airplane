@@ -421,7 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1345193303}
   enginePower: 20
-  liftBooster: 0.5
+  liftBooster: 0.2
   drag: 0.001
   angularDrag: 0.001
   yawPower: 50
